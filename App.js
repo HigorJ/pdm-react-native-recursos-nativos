@@ -1,9 +1,6 @@
-import { Text, View } from 'react-native';
+import Container from "./navegacao/lugaresNavigator";
+
 
 export default function App() {
-  return (
-    <View>
-      <Text>Meu App!</Text>
-    </View>
-  );
+  return Container;
 }
